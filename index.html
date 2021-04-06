@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Hello World</h1>
+    <p>I'm Baruel Chatbot.</p>
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+    </script>
+    <script>
+       (function () {
+            window.onload = function () {
+                new BlipChat()
+                .withAppKey('YmFydWVsOmY2MDU2YmI2LWZjNTgtNDkxYi1hOTIwLWI2MTg1NTU5NDIwZQ==')
+                .withButton({"color":"#047626","icon":""})
+                .withCustomCommonUrl('https://chat.blip.ai/')
+                .build();
+           }
+        })();
+    </script>
+  </body>
+</html>                         
